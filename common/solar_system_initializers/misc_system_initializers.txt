@@ -3,7 +3,7 @@
 
 # Basic 1
 basic_init_01 = {
-	class = "rl_standard_stars"
+	class = "sc_black_hole"
 
 	usage = misc_system_init
 	usage_odds = 20
@@ -38,7 +38,7 @@ basic_init_01 = {
 
 # Basic 2
 basic_init_02 = {
-	class = "rl_standard_stars"
+	class = "sc_black_hole"
 	asteroid_belt = {
 		type = rocky_asteroid_belt
 		radius = 95
@@ -90,7 +90,7 @@ basic_init_02 = {
 
 # Basic 3
 basic_init_03 = {
-	class = "rl_standard_stars"
+	class = "sc_black_hole"
 
 	usage = misc_system_init
 	usage_odds = 10
@@ -140,7 +140,7 @@ basic_init_03 = {
 
 # Basic 4
 basic_init_04 = {
-	class = "rl_standard_stars"
+	class = "sc_black_hole"
 	asteroid_belt = {
 		type = icy_asteroid_belt
 		radius = 120
@@ -186,7 +186,7 @@ basic_init_04 = {
 
 # Basic 5
 basic_init_05 = {
-	class = "rl_standard_stars"
+	class = "sc_black_hole"
 	asteroid_belt = {
 		type = rocky_asteroid_belt
 		radius = 130
@@ -277,7 +277,7 @@ basic_init_05 = {
 
 # Basic 6
 basic_init_06 = {
-	class = "rl_standard_stars"
+	class = "sc_black_hole"
 	asteroid_belt = {
 		type = rocky_asteroid_belt
 		radius = 130
@@ -368,7 +368,7 @@ basic_init_06 = {
 
 # Asteroid System
 asteroid_init_01 = {
-	class = "rl_standard_stars"
+	class = "sc_black_hole"
 	asteroid_belt = {
 		type = rocky_asteroid_belt
 		radius = 60
@@ -437,7 +437,7 @@ asteroid_init_01 = {
 
 # Binary 1
 binary_init_01 = {
-	class = "rl_binary_stars"
+	class = "sc_black_hole"
 
 	usage = misc_system_init
 	usage_odds = 6
@@ -478,7 +478,7 @@ binary_init_01 = {
 
 # Binary 2
 binary_init_02 = {
-	class = "rl_binary_stars"
+	class = "sc_black_hole"
 
 	usage = misc_system_init
 	usage_odds = 4
@@ -540,7 +540,7 @@ binary_init_02 = {
 
 # Trinary 1
 trinary_init_01 = {
-	class = "rl_trinary_stars"
+	class = "sc_black_hole"
 
 	usage = misc_system_init
 	usage_odds = 3
@@ -591,7 +591,7 @@ trinary_init_01 = {
 
 # Trinary 2
 trinary_init_02 = {
-	class = "rl_trinary_stars"
+	class = "sc_black_hole"
 
 	usage = misc_system_init
 	usage_odds = 3
