@@ -10,7 +10,7 @@ basic_init_01 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
@@ -20,6 +20,8 @@ basic_init_01 = {
 	change_orbit = 45
 
 	planet = {
+		
+	
 		count = { min = 2 max = 10 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
@@ -47,7 +49,7 @@ basic_init_02 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
@@ -95,7 +97,7 @@ basic_init_03 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
@@ -149,7 +151,7 @@ basic_init_04 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
@@ -199,7 +201,7 @@ basic_init_05 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
@@ -290,7 +292,7 @@ basic_init_06 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
@@ -389,7 +391,7 @@ asteroid_init_01 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
@@ -442,7 +444,7 @@ binary_init_01 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 25
 		orbit_angle = 0
 		size = { min = 30 max = 35 }
@@ -451,7 +453,7 @@ binary_init_01 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		size = { min = 15 max = 25 }
 		has_ring = no
@@ -483,7 +485,7 @@ binary_init_02 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = 0
 		size = { min = 30 max = 35 }
@@ -492,7 +494,7 @@ binary_init_02 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 240
 		orbit_angle = { min = 0 max = 360 }
 		size = { min = 15 max = 25 }
@@ -545,7 +547,7 @@ trinary_init_01 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 25
 		orbit_angle = 0
 		size = { min = 25 max = 30 }
@@ -554,7 +556,7 @@ trinary_init_01 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = { min = 0 max = 20 }
 		orbit_angle = 120
 		size = { min = 25 max = 30 }
@@ -563,7 +565,7 @@ trinary_init_01 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = { min = 0 max = 20 }
 		orbit_angle = 120
 		size = { min = 25 max = 30 }
@@ -596,7 +598,7 @@ trinary_init_02 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = 0
 		size = { min = 30 max = 35 }
@@ -605,7 +607,7 @@ trinary_init_02 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 220
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 20 max = 30 }
@@ -632,7 +634,7 @@ trinary_init_02 = {
 
 	planet = {
 		count = 1
-		class = star
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 15 max = 30 }
@@ -671,54 +673,5 @@ trinary_init_02 = {
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 3
 		}
-	}
-}
-# Basic 3
-basic_init_08 = {
-	class = "rl_standard_stars"
-
-	usage = misc_system_init
-	usage_odds = 80
-
-	planet = {
-		count = 1
-		class = pc_black_hole
-		orbit_distance = 0
-		orbit_angle = 1
-		size = { min = 20 max = 30 }
-		has_ring = no
-	}
-
-	change_orbit = 45
-
-	planet = {
-		count = { min = 0 max = 1 }
-		orbit_distance = 10
-		orbit_angle = { min = 90 max = 270 }
-	}
-
-	planet = {
-		count = { min = 1 max = 2 }
-		orbit_distance = 60
-		class = pc_gas_giant
-		orbit_angle = { min = 90 max = 270 }
-		size = 25
-
-		change_orbit = @base_moon_distance
-
-		moon = {
-			count = { min = 1 max = 4 }
-			size = { min = 8 max = 20 }
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = 6
-		}
-	}
-
-	change_orbit = 20
-
-	planet = {
-		count = { min = 0 max = 2 }
-		orbit_distance = 20
-		orbit_angle = { min = 90 max = 270 }
 	}
 }
