@@ -673,16 +673,16 @@ trinary_init_02 = {
 		}
 	}
 }
-# Test 1
-basic_init_01 = {
+# Basic 3
+basic_init_08 = {
 	class = "rl_standard_stars"
 
 	usage = misc_system_init
-	usage_odds = 20
+	usage_odds = 80
 
 	planet = {
 		count = 1
-		class = pc_relic
+		class = pc_black_hole
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
@@ -692,16 +692,33 @@ basic_init_01 = {
 	change_orbit = 45
 
 	planet = {
-		count = { min = 2 max = 10 }
-		orbit_distance = 20
+		count = { min = 0 max = 1 }
+		orbit_distance = 10
 		orbit_angle = { min = 90 max = 270 }
+	}
+
+	planet = {
+		count = { min = 1 max = 2 }
+		orbit_distance = 60
+		class = pc_gas_giant
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 1 max = 4 }
+			size = { min = 8 max = 20 }
 			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = 5
+			orbit_distance = 6
 		}
+	}
+
+	change_orbit = 20
+
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
 	}
 }
